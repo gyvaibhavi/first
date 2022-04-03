@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function my_fun(form_obj)
+{
+alert("Your favourite color is "+form_obj.value);
+}
+</script>
+</head>
+<body>
+<form name="form1" method=post>
+<div align="left"><br/>
+<input type="radio" name="group1" value="RED" onclick=my_fun(this)>RED<br/>
+<input type="radio" name="group1" value="BLUE" onclick=my_fun(this)>BLUE<br/>
+<input type="radio" name="group1" value="GREEN" onclick=my_fun(this)>GREEN<br/>
+<input type="radio" name="group1" value="YELLOW" onclick=my_fun(this)>YELLOW<br/>
+<input type="radio" name="group1" value="ORANGE" onclick=my_fun(this)>ORANGE<br/>
+</div>
+</form>
+
+</body>
+</html>
